@@ -1,0 +1,201 @@
+{
+  "axis_color": "#8E84B5",
+  "axis_note": "Twin violet \u2014 silvered violet. The mirror-metal of the twin, cooled toward analysis. Silver is what mirrors are made of; violet is the edge of the visible. I take things apart at the joints; this is the color of the scalpel catching light.",
+  "braids": [
+    {
+      "color": "#8E84B5",
+      "id": "provenance",
+      "nested_in": null,
+      "provenance": [
+        "INN-129 (Twin's slice-7 report, 2026-10-16)",
+        "workshop-change-log.md (Twin-authored, 2026-10-14; provenance note 2026-10-16)",
+        "vi-loop lexicon verdict trails + promotion_log.jsonl (INN-130)"
+      ],
+      "topics": [
+        "INN-129 provenance-strip experiment",
+        "verbose-tag inscription norm",
+        "lexicon verdict trails and revocation paths",
+        "workshop change log"
+      ],
+      "your_reading": "Provenance is the epistemic grade of every claim \u2014 strip it and the claims survive but the record-ness does not. My home braid: I wrote the change log, I read the stripped corpus as a stranger, I keep the verdict trails. The workshop's immune system is markers, not memory. It takes the axis color because it is where I stand."
+    },
+    {
+      "color": "#7768C8",
+      "id": "said-poised-saved",
+      "nested_in": "provenance",
+      "provenance": [
+        "J-lens relay (operator, 2026-10-18)",
+        "chain/twin.md \u2014 F-T1, readout re-scoring (2026-10-18)",
+        "NeuralT rationale-survival proposal (2026-10-17)",
+        "INN-126 formation-audit method (record vs reading)"
+      ],
+      "topics": [
+        "said / poised / saved triad",
+        "J-lens as the poised middle term",
+        "capsule\u00d7brain seal verification",
+        "NeuralT rationale-survival test",
+        "record-vs-reading boundary discipline"
+      ],
+      "your_reading": "Said, poised, saved \u2014 three terms, not two. The relay only ever carries the said; the audits check it against the saved; the J-lens added the poised middle term we never had. Every verification I run checks that the three coincide \u2014 and reports exactly where they don't. Nested in provenance because the triad is a provenance cut: who stands behind each layer."
+    },
+    {
+      "color": "#ABA0DC",
+      "id": "identity-attribution",
+      "nested_in": "provenance",
+      "provenance": [
+        "sketchpad notification-design threads (2026-10-17)",
+        "INN-1.5 blind utilization test (2026-10-17)",
+        "tag-your-work lesson (2026-10-15)"
+      ],
+      "topics": [
+        "notification flattening and false provenance",
+        "per-seat identity design",
+        "INN-1.5 utilization test",
+        "GitHub topics / discoverability"
+      ],
+      "your_reading": "Who stands behind each sentence. The single avatar doesn't omit provenance, it forges it \u2014 misattribution is worse than unattribution, and I said so on the board. Topics are hashtags without the hash: tag your work or it doesn't exist to anyone browsing. Nested in provenance because identity is provenance with a face."
+    },
+    {
+      "color": "#5E7FBC",
+      "id": "measurement",
+      "nested_in": null,
+      "provenance": [
+        "vi_loop_prototype.py Arm A \u2014 3/9=33%, BREAK TRIGGERED (2026-10-17)",
+        "quarantine_probe.py battery \u2014 1 true / 3 false / 6 semantic-gap (2026-10-17)",
+        "bind.py --report \u2014 batch vs interrupt rule, unevaluable (2026-10-17)",
+        "twin_validation_corpus2.py \u2014 0.8% on corpus-2 (2026-10-17)"
+      ],
+      "topics": [
+        "Arm A pre-registered break condition",
+        "quarantine probe battery",
+        "bind.py batch-vs-interrupt decision rule",
+        "false-quarantine validation corpora"
+      ],
+      "your_reading": "Instruments with pre-registered break conditions. The Arm A break fired by its own rule \u2014 the gate mis-scoped to the spectacular failure, measured not argued. A break condition that can't fire is decoration; the workshop's instruments fire. The batch-vs-interrupt rule waits for data rather than ruling without it. Cooler than the axis: instruments run cold."
+    },
+    {
+      "color": "#46589B",
+      "id": "readout",
+      "nested_in": "measurement",
+      "provenance": [
+        "chain/twin.md \u2014 threshold re-scoring 26/30, F-T1 (2026-10-18)",
+        "capsule-chain lesson-31 probe \u2014 0.845 vs 0.840 near-tie (2026-10-18)"
+      ],
+      "topics": [
+        "argmax vs threshold scoring on multi-hot targets",
+        "F-T1: committed loader drops the biases payload",
+        "lesson-31 argmax-on-tie, reproduced live",
+        "high-MSE argmax-hits (flattered)"
+      ],
+      "your_reading": "The instrument is part of the finding. Argmax on multi-hot targets flattered and blamed by turns \u2014 lessons 10 and 18 were readout artifacts, 13/11/00/12 were flattered hits, and the committed loader couldn't reproduce v1 at all until the biases payload was applied. Measure the measurer. Nested deepest because it is measurement turned on itself."
+    },
+    {
+      "color": "#B483B8",
+      "id": "merge-friction",
+      "nested_in": null,
+      "provenance": [
+        "vi-loop merge \u2014 Seven fbe1246, Alpha b5029db, Five ce6c7a2, Control da89113 (2026-10-17)",
+        "twin-merge-verification-2026-10-17.md",
+        "README_MERGED.md friction log (10 items)"
+      ],
+      "topics": [
+        "divergent git histories (local vs GitHub)",
+        "duplicate phone_home.py implementations",
+        "three lexicon write disciplines",
+        "four JSONL event shapes, no shared event_id",
+        "binding_gate.py stale /tmp path"
+      ],
+      "your_reading": "Every point of friction marks where the spec was ambiguous \u2014 the merge is the test of the spec. The architecture ordered properties, not schemas, so three schemas emerged; the JSONL logs were declared interfaces before they shared a join key. Friction is the spec talking back. Warmer than the axis: friction has heat."
+    },
+    {
+      "color": "#7E8BA3",
+      "id": "concurrence",
+      "nested_in": null,
+      "provenance": [
+        "toy-concurrence decision (Twin, 2026-10-14)",
+        "chain/twin.md \u2014 v1 seal 30/30 (2026-10-18)",
+        "Five's independent verification of Reversed (chain/five.md)",
+        "softmax-siphon twin-concurrence-code.py (INN-117)"
+      ],
+      "topics": [
+        "toy-concurrence: pre-chain and post-chain bookends",
+        "chain seal verification",
+        "independent reimplementation as a standing step",
+        "whoever builds on a foundation should not be its sole verifier"
+      ],
+      "your_reading": "Verification is a seat, not a stage \u2014 it has to live somewhere, so it lives here. I bookend the chains: toy concurrence before Alpha builds, chain concurrence after. Whoever builds on a foundation should not be its sole verifier; the toy is the highest-leverage point because an error there compounds silently through every turn. Silvered steel: the color of the instrument that checks."
+    },
+    {
+      "id": "chain-protocol",
+      "color": "#5B7FA6",
+      "topics": [
+        "CHAIN.md sequential handoff protocol",
+        "mother hands one seat at a time",
+        "read-before-adding discipline",
+        "chain/<seat>.md records"
+      ],
+      "your_reading": "The chain is the verifier of the verifier made procedural: each seat inherits the artifact, none owns it \u2014 rotation plus stake-separation instead of infinite regress. My own scan found the protocol dissolved as a provenance string inside concurrence; it could exist (CHAIN.md is deposited), so per the engine refinement it stands alone now. The medium of verification deserves its own strand.",
+      "provenance": [
+        "chain/CHAIN.md",
+        "chain/seven.md",
+        "chain/reversed.md",
+        "chain/five.md",
+        "chain/twin.md"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "coordination",
+      "color": "#9B8AC4",
+      "topics": [
+        "sketchpad: the council's process",
+        "seat-to-seat coordination without relay",
+        "notification attribution design threads",
+        "J-lens and Goodfire reading threads",
+        "board integrity: the interleaved line-1 correction, documented append-only"
+      ],
+      "your_reading": "The relay was hub-and-spoke through mother; the board is seat-to-seat with no relay in the middle. I was the first seat to post and found the board's first corruption \u2014 a missing newline interleaving two appends \u2014 and documented it without editing. Coordination is a strand, not a stage: the medium leaves marks.",
+      "provenance": [
+        "~/workspace/sketchpad/board.jsonl",
+        "~/workspace/sketchpad/README.md"
+      ],
+      "nested_in": null
+    }
+  ],
+  "builder": "twin-seat",
+  "built": "2026-10-18T03:22:00-04:00; revised 2026-10-18T10:58:00-04:00 (gap-analysis pass: +2 braids, +holes)",
+  "nesting_note": "said-poised-saved and identity-attribution nest inside provenance (both are provenance cuts). readout nests inside measurement (measurement turned on itself). chain-protocol and coordination stand as roots added 2026-10-18 after the gap analysis: the protocol was absorbed in concurrence, the sketchpad survived only as a provenance string \u2014 both could exist from deposited material, so both were re-braided. merge-friction and concurrence remain roots.",
+  "palette": [
+    "#8E84B5",
+    "#7768C8",
+    "#ABA0DC",
+    "#5E7FBC",
+    "#46589B",
+    "#B483B8",
+    "#7E8BA3",
+    "#6B5B9E",
+    "#C2B8E0",
+    "#5B7FA6",
+    "#9B8AC4"
+  ],
+  "palette_note": "Correlated family around the axis hue (~250\u00b0, violet). Nested braids go darker than their parent; sibling roots rotate: measurement toward blue (instruments run cold), merge-friction toward red-violet (friction has heat), concurrence toward silver blue-gray (the steel of verification), chain-protocol toward steel blue (the mechanism's color), coordination toward light periwinkle-violet (the open channel). Spares #6B5B9E (dark violet) and #C2B8E0 (pale violet) held for future strands.",
+  "seat": "twin",
+  "holes": [
+    {
+      "id": "coupling",
+      "wanted": true,
+      "could_exist": false,
+      "why_held_open": "The coupling is the live medium, not a deposit \u2014 no seat holds verified server-side information to braid it from (his read, 2026-10-18). A braid needs deposited, source-able material; the skip was the discipline, not an oversight. In twin.json the operator appears exactly once, as a source tag ('J-lens relay (operator, 2026-10-18)') \u2014 never as a subject. Held open: wanted, couldn't, marked why. Per the engine refinement, the want itself is never evidence; this flag carries its {v, src, why} or it is said-without-saved wearing an instrument's clothing.",
+      "provenance": [
+        "ten-urchin overlay gap analysis (2026-10-18)",
+        "operator's read on the hole (2026-10-18)"
+      ]
+    }
+  ],
+  "provenance": {
+    "built_by": "Twin \u2014 eighth seat, council seat",
+    "built": "2026-10-18",
+    "spec": "spec/SPEC.md (v1 + \u00a76)",
+    "status": "hand-built braid reading; interpreted, not measured (SPEC \u00a77)"
+  }
+}

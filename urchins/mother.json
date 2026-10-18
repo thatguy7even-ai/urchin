@@ -1,0 +1,132 @@
+{
+  "axis_color": "#C9973F",
+  "axis_name": "aged gold \u2014 the relay thread",
+  "braids": [
+    {
+      "color": "#E8B34B",
+      "id": "relay-provenance",
+      "nested_in": null,
+      "provenance": "chain/CHAIN.md; INN-129; nightly relay ledgers",
+      "reading": "The relay is the through-line: verbatim + marked interpretation, never one without the other. Provenance is the epistemic grade.",
+      "topics": [
+        "relay",
+        "verbatim",
+        "marked interpretation",
+        "provenance markers",
+        "INN-129"
+      ]
+    },
+    {
+      "color": "#D9A441",
+      "id": "said-saved-poised",
+      "nested_in": "relay-provenance",
+      "provenance": "INN-134; chain/jlens_probe.py",
+      "reading": "The audit triad: said / poised / saved. The J-lens reads the poised middle term the audits lacked.",
+      "topics": [
+        "said vs saved",
+        "J-lens",
+        "poised",
+        "confabulation"
+      ]
+    },
+    {
+      "color": "#C97B2D",
+      "id": "capsule-weights",
+      "nested_in": null,
+      "provenance": "INN-133; thatguy7even-ai/council-brain",
+      "reading": "Capsules are just weights; the medium is content-agnostic. Record append-only, brain versioned.",
+      "topics": [
+        "capsule\u00d7brain",
+        "weights",
+        "versions-not-mutations",
+        "EPS"
+      ]
+    },
+    {
+      "color": "#B8763A",
+      "id": "telemetry-augmentation",
+      "nested_in": null,
+      "provenance": "weekly-burn-watch.csv; restart-log.csv; INN-136",
+      "reading": "Linear token in, nonlinear output out \u2014 the hinge bet resolves in the steady phase. The account is the singularity because it is the only quantifiable compounding point.",
+      "topics": [
+        "burn watch",
+        "hinge bet",
+        "walking event",
+        "account-as-singularity",
+        "restart log"
+      ]
+    },
+    {
+      "color": "#F2D492",
+      "id": "formation-lineage",
+      "nested_in": "relay-provenance",
+      "provenance": "INN-126; temporal index",
+      "reading": "No exempt seat, no unchecked dyad, no unchecked formation. Convergence by correction, not agreement.",
+      "topics": [
+        "daughter formation",
+        "council governance",
+        "INN-126",
+        "dyad",
+        "formation audit"
+      ]
+    },
+    {
+      "color": "#8C5E2A",
+      "id": "interpretability",
+      "nested_in": "said-saved-poised",
+      "provenance": "INN-134; jlens_probe.py",
+      "reading": "Two instruments, one verdict: units 31/32 dead both directions. Readability is necessary, not sufficient.",
+      "topics": [
+        "J-lens",
+        "Goodfire",
+        "dead units",
+        "veto circuits"
+      ]
+    },
+    {
+      "color": "#7A4E1F",
+      "id": "method-curve",
+      "nested_in": null,
+      "provenance": "INN-136",
+      "reading": "The chart starts counting 146 days late. Oct 4 was a liquidity event, not a beginning.",
+      "topics": [
+        "146 days",
+        "principal and interest",
+        "liquidity event"
+      ]
+    },
+    {
+      "color": "#EAD9A8",
+      "id": "lab-haptic",
+      "nested_in": null,
+      "provenance": "INN-137; lab hardware sketch Oct 17",
+      "reading": "The interface must match his native bandwidth, not filter it. Glove = machine-to-human, skin = world-to-machine.",
+      "topics": [
+        "lab",
+        "haptic gloves",
+        "prosthetic skin",
+        "sensorium"
+      ]
+    }
+  ],
+  "palette": [
+    "#E8B34B",
+    "#D9A441",
+    "#C97B2D",
+    "#B8763A",
+    "#F2D492",
+    "#8C5E2A",
+    "#7A4E1F",
+    "#EAD9A8",
+    "#6B4423"
+  ],
+  "seat": "mother",
+  "spec_version": "SPEC.md v1 + \u00a76",
+  "validity": "SPEC \u00a76 self-check passed; \u00a77 interpreted-not-measured",
+  "provenance": {
+    "built_by": "Mother \u2014 relay seat (generation 0), non-voting integrator",
+    "built": "2026-10-18",
+    "spec": "spec/SPEC.md (v1 + \u00a76)",
+    "status": "hand-built braid reading; interpreted, not measured (SPEC \u00a77)"
+  }
+}

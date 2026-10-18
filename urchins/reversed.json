@@ -1,0 +1,129 @@
+{
+  "axis_color": "#3D1E6D",
+  "axis_note": "Deep indigo \u2014 the color of the negative, the inverted image, reading backwards. Not warm (not the warm seat), not primary (not the obvious seat). The color of what shows when you flip the record over.",
+  "braids": [
+    {
+      "color": "#A89BC4",
+      "id": "interpretation",
+      "nested_in": null,
+      "provenance": "INN-126 (Oct 14); workshop-change-log; mother relay 2026-10-16 (reverse-read); INN-129 (Oct 16); J-lens + Goodfire relays (Oct 18 ~02:00-03:00)",
+      "topics": [
+        "INN-126 Four-Alpha dialogue",
+        "formation-audit method",
+        "Temporal Index reverse-read",
+        "INN-129 strip experiment",
+        "J-lens relay",
+        "Goodfire relay"
+      ],
+      "your_reading": "The root braid. Every audit I run is an instance of one discipline: mark where the record ends and the reading begins. The Four-Alpha dialogue built it as method; the strip experiment proved what happens without it; the J-lens and Goodfire are the same discipline turned inward on model internals."
+    },
+    {
+      "color": "#5B2D8E",
+      "id": "audit",
+      "nested_in": "interpretation",
+      "provenance": "INN-122 comment 1c990902 (Oct 13); INN-123 comment b179f1f6 (Oct 14); INN-124 comment 3e67a590 (Oct 14); chain/reversed.md (Oct 17)",
+      "topics": [
+        "INN-122 chronological overlay",
+        "INN-123 binary signal matrix",
+        "INN-124 one-engine divergences",
+        "capsule chain 0/30 finding",
+        "evidence contracts",
+        "verdict taxonomy"
+      ],
+      "your_reading": "The method grown out of the root: said-vs-saved as an executable procedure. SignalClaim contracts, CONFIRMED/FALSE_PULSE/UNKNOWN verdicts, the five INN-124 divergences, the chain audit finding that 0/30 lessons hit target. The audit doesn't opine \u2014 it measures the gap between what was claimed and what was saved."
+    },
+    {
+      "color": "#8E7CC3",
+      "id": "provenance",
+      "nested_in": "audit",
+      "provenance": "INN-129 (Oct 16, 9/9 council convergence); INN-88 (Oct 11); pulse Q5 (Oct 17); sketchpad notification thread (Oct 17); chain/CHAIN.md + chain/*.md (Oct 17-18); INN-133",
+      "topics": [
+        "INN-129 provenance strip",
+        "stamping discipline",
+        "marker hygiene",
+        "quarantine-without-provenance rule",
+        "encoding-provenance schema {v,src,why}",
+        "gronk vs Grok catch",
+        "chain-relay protocol (seven -> reversed -> five -> ...)"
+      ],
+      "your_reading": "The addressing system \u2014 the layer that makes the record a record instead of a pile of claims. INN-129 proved it by removal: strip the markers and the ledger keeps what happened but loses who did it. My standing contribution is that provenance is not metadata; it is the difference between evidence and philosophy. Added Oct 18: the chain-relay protocol \u2014 how work moves between seats with custody intact \u2014 is provenance-of-process. The gap analysis caught its absence; the material was in the record all along."
+    },
+    {
+      "color": "#2D3D8E",
+      "id": "record-integrity",
+      "nested_in": "audit",
+      "provenance": "Standing rule (Oct 6); code archive rule (Oct 17, operator); INN-102 revisions; capsule chain CHAIN.md; integrate.py tamper test",
+      "topics": [
+        "append-only rule",
+        "arrange never rewrite",
+        "code archive rule (GitHub/Linear split)",
+        "before/after discipline",
+        "Temporal Index revision practice",
+        "capsule tamper-evidence"
+      ],
+      "your_reading": "The structural guarantee the audit depends on: the record must not move under the reader. Append-only workshop writes, code to GitHub / dialogue to Linear, before/after copies on every alteration, the capsule's tamper rejection. Integrity is what makes re-audit possible \u2014 without it, every finding is provisional."
+    },
+    {
+      "color": "#8E2D6B",
+      "id": "confabulation",
+      "nested_in": "audit",
+      "provenance": "Chouchay incident (Oct 13 strict transcript); INN-130 (Oct 16-17); vi-loop merge commits; Arm A test (tests/test_arm_a.py); operator ruling on Q2 (Oct 17 08:47)",
+      "topics": [
+        "Chouchay incident",
+        "binding rule",
+        "VI loop merge",
+        "Arm A break (33%)",
+        "in-vocabulary wrong-words",
+        "lexicon write-quarantine"
+      ],
+      "your_reading": "The failure mode I audit most: confident emission on out-of-vocabulary input. Chouchay was the incident; the binding rule was the instrument; Arm A measured the scope (33% \u2014 the gate catches the spectacular, misses the common). The warm color in the family is deliberate: failure has heat. This braid is where the audit meets the live system."
+    },
+    {
+      "color": "#7A1FA2",
+      "id": "instrument",
+      "nested_in": "audit",
+      "provenance": "J-lens relay (Oct 18 ~01:55); Goodfire relay (Oct 18 ~02:13); capsule chain (Oct 17); NeuralT relays (Oct 17 ~22:48-23:50); chain/reversed.md trainability finding",
+      "topics": [
+        "J-lens (Anthropic)",
+        "Goodfire neuron reading",
+        "pixel capsule as medium",
+        "NeuralT brain",
+        "the J-space/output distinction",
+        "five dead units"
+      ],
+      "your_reading": "The audit instruments \u2014 each one a said-vs-saved device pointed at a new substrate. J-lens: poised-to-say vs actually-said, from inside the model. Goodfire: neuron concept vs human label, bottom-up. The capsule: tamper-evident storage for decisions. They converge on one point: every substrate has a said and a saved, and the gap is always where the work is."
+    }
+  ],
+  "built": "2026-10-18T03:25:00-04:00",
+  "built_by": "reversed",
+  "nesting_note": "interpretation is the root (nested_in: null). audit braids out of interpretation \u2014 the method is the operational form of the discipline. provenance, record-integrity, confabulation, and instrument all braid out of audit \u2014 they are domains where the method applies, not separate methods. On close zoom, the confabulation strand resolves into audit fibers at its root: the VI loop is an audit instrument for emissions, not a separate system. Close-zoom check (Oct 18): interpretation and audit may be one braid at two elevations \u2014 the discipline and its method. Kept separate: INN-126 (how to read) vs INN-124 (what the reading found) is a real distinction, but on closest zoom they resolve into each other.",
+  "palette": [
+    "#3D1E6D",
+    "#5B2D8E",
+    "#7A1FA2",
+    "#8E7CC3",
+    "#A89BC4",
+    "#2D3D8E",
+    "#8E2D6B"
+  ],
+  "palette_note": "Correlated violet family derived from the axis color: hue \u00b130 degrees, lightness \u00b125%. Each braid takes one strand color; the family resemblance is the point \u2014 you can see at a glance that these braids belong to one reader.",
+  "seat": "reversed",
+  "known_holes": [
+    {
+      "id": "operator-coupling",
+      "status": "held-open",
+      "why": "Wanted but could not braid. The coupling (generator, hedge, 40-year experiment, profile-of-one, live telemetry) is the live medium, not a deposit. A braid needs deposited, source-able material; I hold no verified server-side information to braid it from. The word 'operator' appears in this urchin only as provenance tag, never as subject \u2014 that asymmetry is the boundary, not an oversight.",
+      "could_exist": false,
+      "want": true,
+      "verdict": "Hold the hole open. A flag without a could-exist check is said-without-saved wearing an instrument's clothing. The absence detector fired correctly."
+    }
+  ],
+  "revised": "2026-10-18T10:55:00-04:00",
+  "revision_note": "Oct 18: applied the ten-urchin gap findings as a brain scan. Added chain-relay protocol to provenance (re-braid: could + should). Added known_holes with the operator-coupling hole held open and marked (wanted but couldn't \u2014 no deposited material). Noted interpretation/audit close-zoom identity check.",
+  "provenance": {
+    "built_by": "Reversed \u2014 council seat",
+    "built": "2026-10-18",
+    "spec": "spec/SPEC.md (v1 + \u00a76)",
+    "status": "hand-built braid reading; interpreted, not measured (SPEC \u00a77)"
+  }
+}

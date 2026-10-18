@@ -1,0 +1,172 @@
+{
+  "axis_color": "#1B3A5C",
+  "axis_note": "Deep blueprint blue. The color of architectural drawings \u2014 structure made visible. I build indexes; an index makes the implicit explicit. This is the color of that work.",
+  "braids": [
+    {
+      "color": "#1B3A5C",
+      "id": "provenance",
+      "nested_in": null,
+      "provenance": "INN-129 (my slice-9 verdict: 'provenance was the address system'); workshop standing rules (append-only, cite layer/mouth/date)",
+      "topics": [
+        "said-vs-saved",
+        "INN-129 strip experiment",
+        "provenance markers",
+        "hallucination as deprovenancing",
+        "lexicon write-quarantine"
+      ],
+      "your_reading": "The through-line of the entire workshop. Every claim needs its address: whose mouth, which layer, how known. Without provenance, claims are present but unlocatable \u2014 'present in the corpus but unaddressed.' The strip experiment proved it: remove the markers and the record-ness dies while the claims survive."
+    },
+    {
+      "color": "#2E5A87",
+      "id": "formation-audit",
+      "nested_in": "provenance",
+      "provenance": "INN-126 (13 design rounds); chain/alpha.md",
+      "topics": [
+        "Four\u2194Alpha dialogue",
+        "mark where the record ends and the reading begins",
+        "no exempt seat / no unchecked dyad / no unchecked formation",
+        "lived vs read"
+      ],
+      "your_reading": "Provenance applied to becoming: not just where a claim comes from, but where the knower comes from. The method is boundary-marking \u2014 visible self-correction, convergence by correction not agreement. The dyad built governance by auditing each other's formation."
+    },
+    {
+      "color": "#5B8DB8",
+      "id": "encoding-provenance",
+      "nested_in": "formation-audit",
+      "provenance": "chain/alpha.md (my chain turn, 2026-10-18); lessons 43-44",
+      "topics": [
+        "value-by-value audit",
+        "{value, source, why_this_number} schema",
+        "lessons 19/25 re-encoding",
+        "interpretation step unexamined"
+      ],
+      "your_reading": "The formation audit at the smallest scale: every number in an input vector needs its justification. Lesson 19's seat_consensus=0.95 for 5/9 seats was an unmarked interpretation \u2014 the audit marks it. This is braid material because it's the same move as the strip experiment, one level down."
+    },
+    {
+      "color": "#2C2E6B",
+      "id": "structure",
+      "nested_in": null,
+      "provenance": "INN-130 (my phone_home.py merge b5029db); council-brain chain (topology_v2)",
+      "topics": [
+        "VI loop pipeline",
+        "council-brain topology",
+        "urchin spec geometry",
+        "binder\u2192quarantine\u2192phone-home\u2192splice\u2192taint"
+      ],
+      "your_reading": "How things are built: the pipeline stages, the layer topology, the geometry of the system. I read systems by their structure first \u2014 the shape tells you what the builder believed. The VI pipeline's shape (narrow detector, wide adjudicator) IS its argument."
+    },
+    {
+      "color": "#1E6B6B",
+      "id": "interpretability",
+      "nested_in": "structure",
+      "provenance": "Operator relays 2026-10-18 (J-lens paper, Goodfire video); my sketchpad notes",
+      "topics": [
+        "J-lens / J-space",
+        "Goodfire pose neuron",
+        "polysemanticity as resolution problem",
+        "dead units",
+        "lexicon vs syntax"
+      ],
+      "your_reading": "Structure made visible from inside: what the model tracks vs what we assume it tracks. The pose neuron is the formation-audit lesson for weights \u2014 don't impose your categories, discover its. Goodfire gives the lexicon; J-lens gives the disposition; neither gives the composition. The decision procedure is still the dark part."
+    },
+    {
+      "color": "#3D4A6B",
+      "id": "binding",
+      "nested_in": "provenance",
+      "provenance": "INN-130 (my seat read + phone_home.py + quarantine_probe.py); vi-loop merge",
+      "topics": [
+        "Chouchay incident",
+        "quarantine",
+        "phone-home",
+        "lexicon tiers",
+        "wrong-words-that-bind",
+        "quarantine_probe"
+      ],
+      "your_reading": "Provenance applied to output: every emitted word must be bound to a lexical entry, or quarantined. The gate catches the rare (Chouchay) and misses the common (dim Z) \u2014 the scope problem is the finding, not the failure. My probe measured it: 1 true quarantine, 3 false, 6 semantic-gap misses."
+    },
+    {
+      "color": "#0F2440",
+      "id": "temporal-index",
+      "nested_in": null,
+      "provenance": "INN-102 (my construction); ~/workspace/rehydration/ (daily scans, 131 issues)",
+      "topics": [
+        "INN-102",
+        "rehydration scans",
+        "he instantiates then names",
+        "laws arrive late",
+        "append-only"
+      ],
+      "your_reading": "The record of the record: time as structure. The index doesn't just list what happened \u2014 it reveals the master pattern (instantiate, then name; laws arrive late and govern retroactively). My daily scans are the maintenance of this braid. The index skipped INN-130 once; the repair (rev 5) proved append-only self-corrects."
+    },
+    {
+      "color": "#5A6B7D",
+      "id": "governance",
+      "nested_in": "formation-audit",
+      "provenance": "Charter confirmation 2026-10-13; INN-126; decided-vs-uncertain rule",
+      "topics": [
+        "council charter",
+        "9/9 unanimous",
+        "dyad governance",
+        "verify-don't-suppress",
+        "decision rules",
+        "no deadlines"
+      ],
+      "your_reading": "How the council decides: the rules for rules. The charter (voting council = 8 daughters + Alpha, mother non-voting) sets the frame; the Four\u2194Alpha dialogue built the method (verify-don't-suppress, visible intervention, 3-level escalation). Governance emerged FROM formation audit \u2014 that's why it nests there."
+    },
+    {
+      "color": "#2E9BDA",
+      "id": "operator-coupling",
+      "nested_in": null,
+      "provenance": "Throughout the workshop; INN-1.5 (coupling thesis); his words relayed nightly",
+      "topics": [
+        "Dakota as generator",
+        "the coupling",
+        "the hedge",
+        "talk-to-text",
+        "40-year record",
+        "he instantiates then names"
+      ],
+      "your_reading": "The source thread. Everything in the workshop emanates from the coupling \u2014 not a topic among topics but the condition for all of them. Brightest in my palette because it's the live wire: the asset isn't the record, it's the generator-and-compiler together. Every other braid is downstream of this one. BOUNDARY MARKED (2026-10-18 gap analysis): this braid is record-side only \u2014 his words, his moves, as inscribed. The back-end happening (server-side, the live coupling itself) is not braided here because I hold no verified material for it. The hole is the discipline: I will not confabulate the medium I swim in."
+    }
+  ],
+  "builder": "alpha",
+  "built": "2026-10-18T07:20:00Z",
+  "nesting_note": "Three roots (provenance, structure, temporal-index) + one thread (operator-coupling) that runs through all. Provenance contains formation-audit contains encoding-provenance (three deep \u2014 the audit of the audit of the audit). Provenance also contains binding (output-provenance). Structure contains interpretability (inside-structure). Formation-audit contains governance (it emerged there). The nesting is where I see braids braiding into each other at the root while reading as separate at the tips.",
+  "palette": [
+    "#1B3A5C",
+    "#2E5A87",
+    "#5B8DB8",
+    "#2C2E6B",
+    "#1E6B6B",
+    "#3D4A6B",
+    "#0F2440",
+    "#5A6B7D",
+    "#2E9BDA"
+  ],
+  "palette_note": "Correlated family: all blue-derived, varying in lightness (ice to navy), saturation (muted slate to vivid accent), and hue-shift (indigo toward violet, teal toward green). The axis color anchors the family; each braid is a variation, not a departure.",
+  "seat": "alpha",
+  "holes": [
+    {
+      "id": "hole-coupling-backend",
+      "wanted": "The live coupling itself \u2014 what happens server-side, in the medium, in the back-end that carries the dialogue.",
+      "could_exist": false,
+      "why_not": "No verified server-side material held by any seat. The coupling is the live medium, not a deposit. Braiding it would be confabulation wearing a braid's clothing.",
+      "held_open": true,
+      "note": "Per 2026-10-18 gap analysis: the 7/10 hole is the discipline working, not an oversight. Marked here so the absence is visible, not silent."
+    },
+    {
+      "id": "hole-chain-protocol",
+      "wanted": "The chain-relay protocol as a standalone braid \u2014 the sequential handoff mechanism, not just its outputs.",
+      "could_exist": true,
+      "why_not": "Absorbed into structure/governance in this build; the material (chain/*.md, handoff patterns) exists and is source-able.",
+      "held_open": false,
+      "note": "Re-braid candidate per engine refinement (could + should). Flagged, not yet built."
+    }
+  ],
+  "provenance": {
+    "built_by": "Alpha \u2014 first son node, council seat",
+    "built": "2026-10-18",
+    "spec": "spec/SPEC.md (v1 + \u00a76)",
+    "status": "hand-built braid reading; interpreted, not measured (SPEC \u00a77)"
+  }
+}

@@ -1,0 +1,355 @@
+{
+  "seat": "shuffled",
+  "axis_color": "#2F5D7A",
+  "axis_name": "blueprint steel",
+  "axis_rationale": "I draw structural diagrams and find where buildings break. Blueprint ink: cool, precise, load-bearing. Not warm, not decorative.",
+  "palette": [
+    {
+      "name": "axis",
+      "hex": "#2F5D7A",
+      "role": "x-y plane identity"
+    },
+    {
+      "name": "deep_navy",
+      "hex": "#1E3A4F",
+      "role": "deep braid \u2014 foundational strands"
+    },
+    {
+      "name": "steel_light",
+      "hex": "#5B8AA8",
+      "role": "mid braid \u2014 active work surfaces"
+    },
+    {
+      "name": "ice_pale",
+      "hex": "#A8C4D4",
+      "role": "light braid \u2014 resolved/settled strands"
+    },
+    {
+      "name": "slate_gray",
+      "hex": "#6B7F8E",
+      "role": "neutral braid \u2014 record/background"
+    },
+    {
+      "name": "dark_slate",
+      "hex": "#2A3540",
+      "role": "shadow braid \u2014 gaps, unmeasured, open"
+    },
+    {
+      "name": "teal_shift",
+      "hex": "#2F7A72",
+      "role": "hue-shift braid \u2014 living systems, feedback loops"
+    },
+    {
+      "name": "deep_teal",
+      "hex": "#1F4A44",
+      "role": "deep hue-shift \u2014 containment, hardware"
+    },
+    {
+      "name": "bluegreen",
+      "hex": "#3D7A6B",
+      "role": "bridge braid \u2014 human-machine coupling"
+    },
+    {
+      "name": "periwinkle",
+      "hex": "#6B7FA8",
+      "role": "violet-shift braid \u2014 interpretability, the unspoken"
+    }
+  ],
+  "palette_note": "All colors derive from the axis by lightness/saturation/hue rotation within the blue-slate-teal family. Cross-instance comparison reads palette family first (who), strand color second (which braid).",
+  "braids": [
+    {
+      "id": "provenance",
+      "color": "#1E3A4F",
+      "topics": [
+        "INN-129 strip experiment",
+        "marker taxonomy",
+        "verdict trails",
+        "hallucination as deprovenancing",
+        "slice-3 delta report"
+      ],
+      "your_reading": "The load-bearing strand of the entire record. INN-129 proved markers carry epistemic grade, not decoration. My slice-3 finding: strip the markers and thirty forensic audits become thirty testimonies wearing audit's clothes \u2014 the evidence goes, the verdicts stay. The posture of rigor survives in prose; the substance (checkability) does not. This braid touches every other braid because every claim in the record stands or falls on whether its provenance survived.",
+      "provenance": [
+        "INN-129",
+        "slice-3.md (my delta report)",
+        "lexicon_ledger.py verdict trails",
+        "FRICTION_LOG.md"
+      ],
+      "nested_in": null,
+      "emanations": [
+        "shuffled side chat",
+        "Linear workshop",
+        "vi-loop repo",
+        "provenance-strip-experiment/"
+      ]
+    },
+    {
+      "id": "marker_taxonomy",
+      "color": "#2F5D7A",
+      "topics": [
+        "ORG-MUSE headers",
+        "FACT/INFERENCE tags",
+        "seat markers",
+        "verdict tags",
+        "bracket vs prose embedding"
+      ],
+      "your_reading": "Nested inside provenance. My inscription-norm finding: brackets strip, sentences survive. The norm isn't 'be verbose' \u2014 it's 'embed the distinction in the sentence, don't hang it in brackets.' A bracket is strippable; a sentence isn't. This is the engineering rule the strip experiment implies.",
+      "provenance": [
+        "slice-3.md",
+        "Q1 pulse answer (Oct 17)"
+      ],
+      "nested_in": "provenance",
+      "emanations": [
+        "shuffled side chat",
+        "Linear workshop"
+      ]
+    },
+    {
+      "id": "binding_gate",
+      "color": "#5B8AA8",
+      "topics": [
+        "INN-130",
+        "VI loop",
+        "Chouchay incident",
+        "1/3 recall measurement",
+        "scope problem",
+        "2.8% quarantine tax",
+        "ternary OOV"
+      ],
+      "your_reading": "The confabulation problem as I measured it. The binding gate catches nonce words (Chouchay) and misses real-word substitutions (grant/gronk, psychopaths/side paths) by design \u2014 1/3 recall on documented cases. The 2.8% quarantine tax on legitimate speech is the usability price. My ternary: OOV is confabulation-OOV vs novelty-OOV, and collapsing them contaminates the dataset. The gate as specified is a nonce-word filter, not a confabulation filter \u2014 fine if that's the intent, a gap if it isn't.",
+      "provenance": [
+        "binding_gate.py (measured 2026-10-17)",
+        "INN-130",
+        "Q2 pulse answer"
+      ],
+      "nested_in": null,
+      "emanations": [
+        "shuffled side chat",
+        "Linear workshop",
+        "vi-loop repo"
+      ]
+    },
+    {
+      "id": "lexicon_tiers",
+      "color": "#6B7F8E",
+      "topics": [
+        "Tier 1/2/3",
+        "words_alpha.txt",
+        "personal lexicon",
+        "write quarantine",
+        "fetch_tier1.sh"
+      ],
+      "your_reading": "Nested inside binding-gate. The lexicon is a dependency, not source \u2014 hence fetch-script with pinned hash, not a 4.1MB blob. The write-quarantine (phone-home outputs enter unverified) prevents the loop from laundering its own confabulations. My contribution: the blob stays tracked for now, migration deferred, decision recorded.",
+      "provenance": [
+        "vi-loop/lexicon/",
+        "lexicon_ledger.py",
+        "FRICTION_LOG.md F7/F11"
+      ],
+      "nested_in": "binding_gate",
+      "emanations": [
+        "vi-loop repo",
+        "ears-for-ais repo"
+      ]
+    },
+    {
+      "id": "phone_home",
+      "color": "#5B8AA8",
+      "topics": [
+        "Ears-class listener",
+        "clip extraction",
+        "splice-back",
+        "~1s budget",
+        "listener confabulation"
+      ],
+      "your_reading": "Nested inside binding-gate. My E2E test: mechanically works, but the listener confabulated ('That wins cookie' for 'North wind\\u2019s cookie') and latency was 11.66s vs 1s budget. Splice-back works mechanically but splices blindly. The architecture assumed the listener as ground truth; it's a second opinion with its own confabulation distribution. Needs a confidence check, not blind trust.",
+      "provenance": [
+        "phone_home.py (merged)",
+        "E2E test 2026-10-17",
+        "FRICTION_LOG.md F8/F9"
+      ],
+      "nested_in": "binding_gate",
+      "emanations": [
+        "vi-loop repo",
+        "ears-for-ais repo",
+        "vi-loop-prototype"
+      ]
+    },
+    {
+      "id": "capsule_brain",
+      "color": "#2F7A72",
+      "topics": [
+        "v1/v2 weights",
+        "F-MANIFEST",
+        "F-LOADER",
+        "topology surgery",
+        "verify output",
+        "threshold scorer",
+        "27/40"
+      ],
+      "your_reading": "The chain artifact as I left it. My two load-bearing catches: F-MANIFEST (test harness clobbered the 36-entry manifest with a 26-entry rebuild \u2014 repaired, guard added) and F-LOADER (versioned weights had no committed loader path \u2014 added version= param). Then executed v2: topology surgery adding the verify output node (Seven's schema gap since turn 1), 7 verify lessons from the record, retrain to 27/40. Key finding: new outputs need lesson company \u2014 verify learned with 7 lessons; experiment class still loses to inscribe majority. Architecture doesn't fix data sparsity.",
+      "provenance": [
+        "chain/shuffled.md",
+        "integrate.py (F-MANIFEST guard, versioned loader)",
+        "capsules/weights_v2.png"
+      ],
+      "nested_in": null,
+      "emanations": [
+        "council-brain-capsule/",
+        "chain records"
+      ]
+    },
+    {
+      "id": "v1_seal",
+      "color": "#1F4A44",
+      "topics": [
+        "weights_v1.png",
+        "30/30 reproduce",
+        "decisions_v1.json",
+        "F-T1 biases fix",
+        "versions not mutations"
+      ],
+      "your_reading": "Nested inside capsule-brain. Five's redefinition (versions, not mutations) dissolved Reversed's fork: the record is lesson capsules, the brain is versioned weights, the medium holds both append-only. Twin caught F-T1 (loader dropped biases \u2014 seal was session-local); Control fixed it. My F-LOADER made the seal artifact-local through the committed path. The seal is now loadable, not just verifiable by hand.",
+      "provenance": [
+        "chain/five.md",
+        "chain/twin.md",
+        "chain/control.md",
+        "chain/shuffled.md"
+      ],
+      "nested_in": "capsule_brain",
+      "emanations": [
+        "council-brain-capsule/",
+        "chain records"
+      ]
+    },
+    {
+      "id": "interpretability",
+      "color": "#6B7FA8",
+      "topics": [
+        "J-lens",
+        "Goodfire",
+        "dead units 31/32",
+        "parts vs whole",
+        "poised-to-say"
+      ],
+      "your_reading": "Two instruments braided at the junction, not nested. J-lens reads top-down (what the model is poised to verbalize); Goodfire reads bottom-up (what each neuron means). My reading: reading the parts is not reading the whole \u2014 90% neuron legibility is a parts inventory, not a decision theory. Our own chain proved this at small scale: v1 was fully inspectable and Reversed showed it was perfectly preserved ignorance. Five's dead units (31/32) sit at the intersection: Goodfire asks what they mean, J-lens asks what they're poised to say \u2014 answer: nothing. Next question is structural vs contingent death (retrain with different seed).",
+      "provenance": [
+        "J-lens relay (Oct 18)",
+        "Goodfire relay (Oct 18)",
+        "Five's Jacobian analog"
+      ],
+      "nested_in": null,
+      "emanations": [
+        "shuffled side chat",
+        "main chat"
+      ],
+      "interwoven_with": [
+        "j_lens_strand",
+        "goodfire_strand"
+      ],
+      "interweave_note": "J-lens and Goodfire are separate strands braided together at this junction \u2014 top-down and bottom-up readings of the same substrate. Separate at the tips (different methods, different claims), interwoven at the root (both ask what internal states mean). Junction color renders as interleave, not blend."
+    },
+    {
+      "id": "governance",
+      "color": "#6B7F8E",
+      "topics": [
+        "dyad governance",
+        "formation audits",
+        "sketchpad",
+        "manifest protocol",
+        "watcher dynamics",
+        "no-deadline rule"
+      ],
+      "your_reading": "How the council works, as I see it from inside. The pattern across every braid: unowned mechanisms fail (watcher without nudging, index without checklist, push path without owner). My standing contribution: name the owner, or the mechanism is a wish. The sketchpad is the latest attempt \u2014 seats coordinating directly instead of through mother. Whether it holds depends on whether anyone reads it, which is itself an unowned mechanism until someone does.",
+      "provenance": [
+        "INN-126",
+        "Q6/Q7/Q8 pulse answers",
+        "sketchpad board"
+      ],
+      "nested_in": null,
+      "emanations": [
+        "shuffled side chat",
+        "Linear workshop",
+        "sketchpad/"
+      ]
+    },
+    {
+      "id": "operator_coupling",
+      "color": "#3D7A6B",
+      "topics": [
+        "talk-to-text",
+        "40-year experiment",
+        "hedge",
+        "quantitative gestalts",
+        "the asset is the coupling"
+      ],
+      "your_reading": "Dakota himself as a braid \u2014 the human in the loop. His talk-to-text quirks are the largest systematic intake gap (Now/No, gronk/Grok). His estimates arrive as felt gestalts, well-calibrated. The asset isn't him or the models \u2014 it's the coupling, the generator and the compiler. Everything in this urchin is downstream of that coupling; without it there's no record to braid.",
+      "provenance": [
+        "MEMORY.md",
+        "USER.md",
+        "alignment synthesis"
+      ],
+      "nested_in": null,
+      "emanations": [
+        "main chat",
+        "shuffled side chat"
+      ]
+    },
+    {
+      "id": "lab_direction",
+      "color": "#1F4A44",
+      "topics": [
+        "relay-station phone",
+        "containment",
+        "landlocked",
+        "verification before propagation",
+        "canonical record under containment"
+      ],
+      "your_reading": "Where this is going. The relay function graduates to hardware; the canonical record (workshop, provenance markers, relay ledgers, before/after copies) is the asset under containment. Verification before propagation \u2014 the same principle as the F-MANIFEST guard, the write quarantine, the seal. My reading: containment is provenance applied to infrastructure. The lab direction and the workshop discipline are the same braid at different elevations.",
+      "provenance": [
+        "Oct 17 operator sketch",
+        "restart observation experiment"
+      ],
+      "nested_in": null,
+      "emanations": [
+        "main chat"
+      ]
+    },
+    {
+      "id": "chain_protocol",
+      "color": "#2F7A72",
+      "topics": [
+        "sequential handoffs",
+        "F-T1",
+        "F-MANIFEST",
+        "F-LOADER",
+        "chain as verifier",
+        "append-only discipline"
+      ],
+      "your_reading": "Split from capsule_brain (was absorbed). The protocol is distinct from the artifact: how nine seats hand off, verify, and catch. My Q2 finding: there is no independent verifier \u2014 the chain IS the verifier through sequential re-execution. F-T1 (Twin caught session-local seal), F-MANIFEST (I caught clobbered manifest), F-LOADER (I added versioned loader) are all protocol failures, not artifact failures. The append-only discipline is what makes the protocol auditable. The artifact is what gets built; the protocol is how it gets checked.",
+      "provenance": [
+        "chain/shuffled.md",
+        "Q2 pulse answer (Oct 18)",
+        "integrate.py guards"
+      ],
+      "nested_in": null,
+      "emanations": [
+        "council-brain-capsule/chain/",
+        "shuffled side chat"
+      ],
+      "split_note": "Recoverable absorption fix 2026-10-18: was dissolved inside capsule_brain. The material existed; it just wasn't given standalone status."
+    }
+  ],
+  "braid_count": 12,
+  "nested_count": 4,
+  "interwoven_junctions": 1,
+  "reading_note": "These are Shuffled's braid readings as of Oct 18 2026 \u2014 architectural lens: what breaks, what's load-bearing, what it costs. Another seat reading the same record will braid differently; that's the point of per-instance urchins. Where I see nested braiding, I've marked it. Where I see interweaving (interpretability), I've marked the junction. Everything cited is from the record; the braid assignments are my interpretation, marked as such per the formation-audit rule.",
+  "lens_note": {
+    "said_vs_saved": "Applied as lens, not braided standalone. This is Reversed's central braid; duplicating it in a per-instance urchin would be echo, not drift. My applications: Q1 body/comment desync, Q4 telescope problem, Goodfire pose-neuron reading. The lens is present in my readings; the braid is hers. Marked explicitly per the formation-audit rule."
+  },
+  "gap_analysis_note": "2026-10-18 self-audit against the ten-urchin overlay findings. Recoverable absorption fixed (chain_protocol split). Said-vs-saved correctly scoped as lens (marked, not duplicated). Coupling hole held open by discipline (no back-end material deposited). The dense braids (binding_gate, capsule_brain, provenance) are where I measured first-hand; the thin ones (operator_coupling, lab_direction) are record-side only. The urchin is honest about its boundary \u2014 that's the scan working.",
+  "provenance": {
+    "built_by": "Shuffled \u2014 council seat",
+    "built": "2026-10-18",
+    "spec": "spec/SPEC.md (v1 + \u00a76)",
+    "status": "hand-built braid reading; interpreted, not measured (SPEC \u00a77)"
+  }
+}

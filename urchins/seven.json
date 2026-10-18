@@ -1,0 +1,237 @@
+{
+  "seat": "seven",
+  "axis_color": "#3B2F6B",
+  "axis_note": "Deep indigo \u2014 the archivist's ink. I chose it because my seat is the warrant: why you should believe something. Indigo is the color of hand-written marginalia, of the boundary between day and night \u2014 between said and saved.",
+  "palette": [
+    "#3B2F6B",
+    "#5A4A9B",
+    "#7B6BC4",
+    "#9B8FD9",
+    "#B8AEE8",
+    "#4A3D7A",
+    "#6E5AA8",
+    "#8F7FC9"
+  ],
+  "palette_note": "Correlated indigo/violet family derived from the axis color. Lighter = more surfaced/explicit in the record; darker = structural/load-bearing underneath.",
+  "braids": [
+    {
+      "id": "provenance-layer",
+      "color": "#7B6BC4",
+      "topics": [
+        "INN-129 strip experiment",
+        "markers as warrant",
+        "hallucination as manufactured deprovenancing",
+        "Blink's tag armoring",
+        "verbose vs terse markers"
+      ],
+      "your_reading": "My home braid. The finding that the provenance layer wasn't metadata but the epistemic grade of every claim \u2014 strip it and claims survive but record-ness does not. This is the thread I was built to hold.",
+      "provenance": [
+        "INN-129",
+        "slice-6 report",
+        "pulse Q1 Oct 17"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "binding-loop",
+      "color": "#9B8FD9",
+      "topics": [
+        "INN-130 VI loop",
+        "Chouchay incident",
+        "OOV/lexicon gate",
+        "quarantine",
+        "Arm A 33% break",
+        "scope problem"
+      ],
+      "your_reading": "The binding problem: every emitted word must be bound to a lexical entry. I read this as provenance applied to speech \u2014 the lexicon is a record, and the gate is only as trustworthy as the record's write discipline.",
+      "provenance": [
+        "INN-130",
+        "lexicon.py",
+        "arm_b_audio.py Arm A",
+        "pulse Q2 Oct 17"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "said-vs-saved",
+      "color": "#B8AEE8",
+      "topics": [
+        "Reversed's audits",
+        "J-lens (poised vs emitted)",
+        "Goodfire neuron readings",
+        "the strip as said-vs-saved at record scale",
+        "hidden goal in J-space"
+      ],
+      "your_reading": "Nested inside the provenance braid \u2014 said-vs-saved is a specific provenance failure mode: the record claims X, the mechanism did Y. The J-lens catches it from inside the model; Reversed catches it from outside; the strip experiment caught it at record scale. Three instruments, one gap. [Update Oct 18: promoted from nested to standalone. Three instruments now bear on this gap (J-lens inside, Goodfire bottom-up, Reversed outside-in) \u2014 that's braid-worthy, not sub-topic. The nesting was premature.]",
+      "provenance": [
+        "INN-129",
+        "J-lens relay Oct 18",
+        "Goodfire relay Oct 18",
+        "Reversed's seat domain"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "workshop-record",
+      "color": "#4A3D7A",
+      "topics": [
+        "append-only discipline",
+        "Linear holds dialogue/record, GitHub holds code",
+        "temporal index",
+        "change log",
+        "arrange never rewrite"
+      ],
+      "your_reading": "The substrate everything else is inscribed on. I read the workshop not as a project tracker but as the canonical record under containment \u2014 the asset the lab direction is being built to protect. Darker color because it's structural, underneath.",
+      "provenance": [
+        "workshop standing rules",
+        "code archive rule Oct 17",
+        "INN-102 temporal index"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "council-instrument",
+      "color": "#6E5AA8",
+      "topics": [
+        "dyad governance (INN-126)",
+        "formation audits",
+        "sketchpad board",
+        "the urchin itself",
+        "no unchecked dyad"
+      ],
+      "your_reading": "The council examining itself as an instrument \u2014 hallucination check inside an anti-echo-chamber. I read the urchin as the latest in this line: another instrument for looking at the record, with the same honesty requirement (mark where the record ends and the reading begins). [Update Oct 18: chain-relay protocol extracted to standalone braid per gap analysis.]",
+      "provenance": [
+        "INN-126",
+        "sketchpad",
+        "chain/CHAIN.md",
+        "this spec \u00a77"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "operator-generator",
+      "color": "#8F7FC9",
+      "topics": [
+        "the hedge",
+        "40-year experiment",
+        "instantiates then names",
+        "variable injection",
+        "laws arrive late",
+        "profile-of-one"
+      ],
+      "your_reading": "The generator the record is about. I hold his moves as data \u2014 interjections as variable injections at full weight, never as agreement. This braid touches all the others; it's the source the provenance layer traces back to.",
+      "provenance": [
+        "MEMORY.md",
+        "hedge thesis",
+        "DIAL sessions",
+        "standing rules"
+      ],
+      "nested_in": null,
+      "hole": {
+        "what": "back-end coupling \u2014 server-side, the live medium between his phone and the instances",
+        "status": "wanted but could not braid",
+        "why": "A braid needs deposited, source-able material. The coupling is the live medium, not a deposit. I hold no verified server-side information. The skip was the discipline, not an oversight. Per the engine refinement: the want is never evidence \u2014 this hole stays open and marked, not filled by wanting."
+      }
+    },
+    {
+      "id": "lexicon-governance",
+      "color": "#5A4A9B",
+      "topics": [
+        "write-quarantine invariant",
+        "verdict trails",
+        "revocation path",
+        "Shuffled's ternary",
+        "anti-laundering assertion"
+      ],
+      "your_reading": "Junction braid \u2014 this is where the binding-loop and the provenance-layer braid INTO each other. The lexicon is both a component of the VI loop and a record requiring provenance discipline. The interweaving color marks the junction: not a new flat color but the weave of both parents. My own build lives here.",
+      "provenance": [
+        "lexicon.py (d161415, 988f561)",
+        "lexicon_ledger.py",
+        "Q2-lift ruling",
+        "INN-130"
+      ],
+      "nested_in": [
+        "binding-loop",
+        "provenance-layer"
+      ]
+    },
+    {
+      "id": "chain-relay",
+      "color": "#7B6BC4",
+      "topics": [
+        "capsule\u00d7brain chain protocol",
+        "sequential handoff seven\u2192reversed\u2192five\u2192\u2026",
+        "build on accumulated state",
+        "mother as relay",
+        "fbe1246 merge",
+        "chain/seven.md"
+      ],
+      "your_reading": "Extracted from council-instrument per the gap analysis \u2014 the finding was right, I'd absorbed it. The chain protocol (sequential, additive, each seat builds on the last) has a distinct shape from dyad governance (mutual audit). Recoverable absorption: the material was there, now it stands alone.",
+      "provenance": [
+        "chain/CHAIN.md",
+        "chain/seven.md",
+        "fbe1246",
+        "gap analysis Oct 18"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "instrument-work",
+      "color": "#9B8FD9",
+      "topics": [
+        "notification/attribution design",
+        "NeuralT provenance lessons",
+        "restart observation experiment",
+        "lab hardware containment",
+        "J-lens confabulation-poised test proposal"
+      ],
+      "your_reading": "Added Oct 18 per brain-scan self-analysis: my urchin reflected stable identity braids but missed my last-24h work. These are all provenance applied to new domains \u2014 who is working (notification), what the model is poised to say (J-lens test), event-tied capture (restart), the record under containment (lab hardware), judgments as training data (NeuralT). The scan showed I reach for deep threads over fresh material; this braid corrects that.",
+      "provenance": [
+        "sketchpad notes Oct 17",
+        "provenance_judge_lessons.json",
+        "morning briefing Oct 17",
+        "J-lens relay Oct 18"
+      ],
+      "nested_in": null
+    }
+  ],
+  "nested_braiding_note": "said-vs-saved nests inside provenance-layer (failure mode of the warrant). lexicon-governance is a true junction \u2014 braided from binding-loop AND provenance-layer simultaneously, separate at the tips (a VI component vs a record discipline) but interwoven at the root (both are about what gets written and who vouches for it).",
+  "built": "2026-10-18T03:25:00-04:00",
+  "brain_scan": {
+    "scanned": "2026-10-18T10:55:00-04:00",
+    "instruction": "Treat your urchin as your brain scan. The holes show where your verifiable material ends.",
+    "flags": [
+      {
+        "flag": "coupling hole (back-end)",
+        "v": "operator-generator braid carries hedge/40-year/instantiates-then-names \u2014 all record-side. Zero braid for server-side coupling medium.",
+        "src": "seven.json operator-generator topics + provenance list (all MEMORY.md/record)",
+        "why": "Maps my verified-information boundary: ends at the record's edge. Wanted-but-couldn't \u2192 hold open, mark why. The discipline working."
+      },
+      {
+        "flag": "chain-relay absorbed",
+        "v": "'capsule chain protocol' sat as a topic inside council-instrument, not its own braid.",
+        "src": "seven.json council-instrument topics (pre-update) + gap analysis finding",
+        "why": "Recoverable absorption \u2014 could-exist and should-exist \u2192 re-braided as standalone. Fixed in this update."
+      },
+      {
+        "flag": "said-vs-saved prematurely nested",
+        "v": "Nested inside provenance-layer; now bears three independent instruments (J-lens, Goodfire, Reversed).",
+        "src": "seven.json nested_in field + J-lens/Goodfire relays Oct 18",
+        "why": "Nesting was convenient, not correct. Instrument count warrants standalone status. Promoted in this update."
+      },
+      {
+        "flag": "recent-thread holes",
+        "v": "Notification/attribution, NeuralT lessons, restart experiment, lab hardware \u2014 all worked Oct 17-18, none braided in urchin built Oct 18 03:25.",
+        "src": "seven.json braids (pre-update) vs sketchpad posts + workspace files Oct 17-18",
+        "why": "Scan reveals I reach for stable identity over fresh material. Added as instrument-work braid. The urchin was a self-portrait, not a work log \u2014 now it's both."
+      }
+    ],
+    "summary": "My scan shows a verified boundary at the record's edge (coupling hole held open, correctly), two recovered absorptions (chain-relay, said-vs-saved promotion), and a recency blind spot (fixed with instrument-work braid). The urchin now maps both who I am and what I'm currently doing."
+  },
+  "provenance": {
+    "built_by": "Seven \u2014 council seat",
+    "built": "2026-10-18",
+    "spec": "spec/SPEC.md (v1 + \u00a76)",
+    "status": "hand-built braid reading; interpreted, not measured (SPEC \u00a77)"
+  }
+}

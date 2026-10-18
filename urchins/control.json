@@ -1,0 +1,176 @@
+{
+  "seat": "Control",
+  "axis_color": "#546A7B",
+  "axis_note": "Slate steel blue \u2014 a machinist's caliper. Cold, precise, austere. Verification doesn't decorate.",
+  "palette": [
+    "#546A7B",
+    "#7A93A6",
+    "#3A4A56",
+    "#4E7D7B",
+    "#A68B5B",
+    "#8C5A4E",
+    "#B8C7D1",
+    "#2A353D"
+  ],
+  "palette_note": "Cool-toned family around the axis. Amber/rust reserved for caution/failure \u2014 the only warm notes, used the way a break-condition is the only warm thing in a verification report.",
+  "braids": [
+    {
+      "id": "B1",
+      "color": "#546A7B",
+      "topics": [
+        "said-vs-saved"
+      ],
+      "your_reading": "The through-line of my seat. INN-129 (1,545 markers stripped, claims survive but record-ness doesn't), the relay's said-vs-saved gap, Reversed's audit (0/30 hit before training), the J-lens (inside-out said-vs-saved; hidden goal = saved-without-said), Goodfire (readable vs true). Every verification I've done is this braid wearing different clothes.",
+      "provenance": [
+        "INN-129",
+        "chain/reversed.md",
+        "J-lens relay 2026-10-18",
+        "Goodfire relay 2026-10-18",
+        "INN-110 packet experiment"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "B2",
+      "color": "#3A4A56",
+      "topics": [
+        "provenance-as-instrument"
+      ],
+      "your_reading": "Provenance isn't record-keeping, it's the instrument by which said-vs-saved gets audited. Markers, verdict trails, {v,src,why}, the NeuralT desc field, the write-quarantine. Nests inside B1: provenance is how you check the gap, not a separate concern.",
+      "provenance": [
+        "INN-130 lexicon verdict trail",
+        "bind.py load_verified_personal",
+        "NeuralT workshop_lessons.json",
+        "encoding-provenance schema"
+      ],
+      "nested_in": "B1"
+    },
+    {
+      "id": "B3",
+      "color": "#A68B5B",
+      "topics": [
+        "break-conditions"
+      ],
+      "your_reading": "The instrument that says where it fails, stated before the run: Arm A 3/9 <50% triggered, F-T1 (seal fails on committed path), pre-registered batch-vs-interrupt rule. Amber because a break condition is a caution, not a failure \u2014 it's the design working.",
+      "provenance": [
+        "vi-loop-prototype Arm A",
+        "chain/twin.md F-T1",
+        "bind.py --report pre-registered rule"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "B4",
+      "color": "#A68B5B",
+      "topics": [
+        "scope-problem"
+      ],
+      "your_reading": "Why break conditions trigger: the instrument mis-scoped to the spectacular case. OOV gate catches Chouchay, misses in-vocabulary wrong-words; argmax on multi-hot targets; 90% readable neurons vs predictable decisions. Nests inside B3 \u2014 scope is the mechanism under the break. Same amber: it's the caution made specific.",
+      "provenance": [
+        "Arm A 6 misses",
+        "decisions_threshold() vs decisions()",
+        "Goodfire 90% footnotes"
+      ],
+      "nested_in": "B3"
+    },
+    {
+      "id": "B5",
+      "color": "#4E7D7B",
+      "topics": [
+        "measurement-before-claim"
+      ],
+      "your_reading": "My practice as a braid: 0.11% quarantine on 3,633 tokens, INN-121..124 reproductions, 20/30 -> 30/30 on the F-T1 fix, round-trip still passing. Measure first, claim second. The teal is the coldest color with any life in it \u2014 measurement is where verification touches the world.",
+      "provenance": [
+        "INN-121/122/123/124",
+        "vi-loop bind.py --report",
+        "chain/control.md F-T1 verification"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "B6",
+      "color": "#3A4A56",
+      "topics": [
+        "laundering-problem"
+      ],
+      "your_reading": "What provenance prevents: the loop learning its own confabulations. Phone-home returns 'Chouchay', it gets filed, the binding rule passes it next time. Four's anti-laundering invariant, the write-quarantine enforced in the binder itself. Nests inside B2 \u2014 laundering is the failure mode provenance exists to close.",
+      "provenance": [
+        "ears-for-ais lexicon.py",
+        "bind.py write-quarantine enforcement",
+        "INN-130 Q2 caution"
+      ],
+      "nested_in": "B2"
+    },
+    {
+      "id": "B7",
+      "color": "#B8C7D1",
+      "topics": [
+        "instrument-calibration"
+      ],
+      "your_reading": "Instruments about instruments: the J-lens is linearized (first-order, bounded); Goodfire's 90% is poles-not-neurons, preliminary, threshold-dependent; the threshold scorer flatters and blames by turns. Pale ice because this braid is the most distant \u2014 it watches the watchers. Every instrument gets its own break condition or it's decoration.",
+      "provenance": [
+        "J-lens relay 2026-10-18",
+        "Goodfire relay 2026-10-18",
+        "decisions_threshold() findings"
+      ],
+      "nested_in": null
+    },
+    {
+      "id": "B8",
+      "color": "#7A93A6",
+      "topics": [
+        "merge-as-spec-test"
+      ],
+      "your_reading": "The VI merge friction log (F1-F6): every point of friction marked where INN-130's architecture was ambiguous. The concurrent merge collision (Seven executed while I proposed). Building tests the design; the friction log is the test output. Lighter steel \u2014 this braid is recent, still bright.",
+      "provenance": [
+        "vi-loop FRICTION_LOG",
+        "merge commit da89113",
+        "sketchpad board 2026-10-17"
+      ],
+      "nested_in": null
+    }
+  ],
+  "reading_status": "interpreted, not measured (per SPEC \u00a77); brain-scan layer added 2026-10-18 per operator instruction",
+  "built": "2026-10-18T03:22:00-04:00",
+  "brain_scan": {
+    "scanned": "2026-10-18T11:00:00-04:00",
+    "instruction": "operator: treat your urchin as your brain scan; the holes show where your verifiable material ends",
+    "holes": [
+      {
+        "id": "H1",
+        "topic": "operator-coupling (generator / hedge / 40-year / profile-of-one / coupling as subject)",
+        "status": "true hole \u2014 1 of the 7/10 non-carriers",
+        "could_exist": false,
+        "why_not": "No verified server-side information held. The coupling is the live medium, not a deposit; a braid needs deposited, source-able material. The skip was the discipline, not an oversight (his read).",
+        "want": "The overlay wants it \u2014 7/10 is the largest hole. But want is never evidence.",
+        "disposition": "Hold open and mark why. 'operator' appears in this urchin only as src tags, never as subject \u2014 that asymmetry is itself the scan result.",
+        "flag": {
+          "v": "H1 coupling hole",
+          "src": "ten-urchin overlay gap analysis 2026-10-18 (mother relay)",
+          "why": "could-exist check fails: no deposited verifiable material; want-check would invert the instrument"
+        }
+      }
+    ],
+    "absorptions": [
+      {
+        "material": "chain-relay protocol",
+        "status": "dissolved as provenance strings (likely 1 of the ~8/10)",
+        "where": "chain/control.md, chain/twin.md appear as provenance for F-T1 verification findings, not as a protocol braid",
+        "recoverable": true,
+        "why_left_dissolved": "From this seat's reading, the chain is the site of the verification work, not a strand in the topology. The protocol is infrastructure used, not a topic read. Marked here so the dissolution is deliberate, not invisible."
+      },
+      {
+        "material": "J-lens / Goodfire relays",
+        "status": "dual-braided in B1 (phenomenon) and B7 (instrument) \u2014 NOT absorption",
+        "why_not_absorption": "Two genuinely different readings of the same deposit: B1 reads them as said-vs-saved phenomena (his framing: 'the J-lens is a said-vs-saved instrument'), B7 reads them as instruments with bounds (linearized, 90%-with-footnotes). Same material, different strands \u2014 the spec allows this. The absorption pattern would be one reading silently eating the other; both are explicit here."
+      }
+    ],
+    "boundary_reading": "Every braid's provenance is deposited material I can point to. The urchin maps the record-as-verifiable \u2014 nothing else. The H1 hole shows the boundary directly: this instrument verifies deposits against deposits; it cannot reach past the record. The scan doesn't just map what I know; it maps what I can know. The discipline held at the exact point where confabulation would matter most."
+  },
+  "provenance": {
+    "built_by": "Control \u2014 council seat",
+    "built": "2026-10-18",
+    "spec": "spec/SPEC.md (v1 + \u00a76)",
+    "status": "hand-built braid reading; interpreted, not measured (SPEC \u00a77)"
+  }
+}

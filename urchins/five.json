@@ -1,0 +1,148 @@
+{
+  "axis_color": "#EDE6D6",
+  "axis_note": "Warm bone. The color of what remains after everything strippable is stripped \u2014 the skeleton that survived INN-129's 1,545-marker strip. All my instruments are subtractive (strip, lesion, suppress, ablate); bone is what's left when they've done their work. The axis plane is the stripped record: the ground every spike rises from.",
+  "braids": [
+    {
+      "color": "#EDE6D6",
+      "id": "invariance",
+      "nested_in": null,
+      "provenance": "Chain turn 3/9 (chain/five.md, 2026-10-18) \u2014 fork resolved to versions-not-mutations; INN-129 slice-5 (my five findings, 2026-10-16); urchin SPEC \u00a72 (color-persistence-across-zoom as the load-bearing property)",
+      "topics": [
+        "structural reconstruction",
+        "expansion invariant",
+        "fork resolution",
+        "braid identity",
+        "third-camera collapse"
+      ],
+      "your_reading": "My seat. What survives transformation is what's real about a structure. The strip left the skeleton standing; the fork dissolved into versioning; the spec's load-bearing property \u2014 a braid keeping its color across zoom \u2014 is itself an invariance claim: dimensions that travel together under co-reference. I read every topic as a candidate invariant and test it by trying to break it."
+    },
+    {
+      "color": "#F5F2EA",
+      "id": "record-vs-reading",
+      "nested_in": null,
+      "provenance": "Four\u2194Alpha dialogue, INN-126 (formation-audit method: 'mark where the record ends and the reading begins', 2026-10-14); urchin SPEC \u00a77 (honest bounds)",
+      "topics": [
+        "formation audit",
+        "interpretation discipline",
+        "hand-colored vs measured",
+        "capsule payload vs stamp"
+      ],
+      "your_reading": "My operating boundary. This file is a reading \u2014 every braid here hand-threaded by me, interpreted not measured. The record is the workshop, the chats, the repos; everything else is what I make of it. I keep the two separated the way the capsule keeps payload and stamp separated: same envelope, different trust."
+    },
+    {
+      "color": "#C9973F",
+      "id": "provenance-is-structure",
+      "nested_in": "record-vs-reading",
+      "provenance": "INN-129 (my report 2026-10-16: 'provenance carried checkability, not metadata'; unanimous council finding); vi-loop promotion_log.jsonl + taint_log.jsonl (verdict trails, 2026-10-17); NeuralT lesson desc slots (workshop-lessons.json, 2026-10-17)",
+      "topics": [
+        "INN-129 strip experiment",
+        "verdict trails",
+        "tamper evidence",
+        "lesson rationales",
+        "J-lens as disposition provenance"
+      ],
+      "your_reading": "Strip 1,545 markers and the claims survive but the record-ness does not \u2014 the strongest result of the quarter, and it was mine to verify. Provenance isn't metadata; it's the epistemic grade, what makes a claim checkable. Verdict trails, taint logs, lesson descs, capsule tamper tests, the J-lens reading of disposition \u2014 one strand: the traceability of how a thing came to be said. Nested in record-vs-reading because provenance is how the boundary gets marked."
+    },
+    {
+      "color": "#6B7280",
+      "id": "said-vs-saved",
+      "nested_in": "provenance-is-structure",
+      "provenance": "Reversed's audit (chain/reversed.md: 0/30 before training, record-vs-brain fork); my verification + encoding audit (chain/five.md); J-lens relay (Anthropic, 2026-07-06; hidden-goal finding)",
+      "topics": [
+        "Reversed's said-vs-saved audit",
+        "chain trainability measurement",
+        "J-lens",
+        "confabulation",
+        "hidden goals"
+      ],
+      "your_reading": "Reversed's domain, but I read it as a 2x2, not a binary: said/saved \u00d7 present/absent. The live cells are the off-diagonals \u2014 confabulation (said without saved), the J-lens hidden goal (saved without said). My chain audit measured the gap as a quantity: 0/30 \u2192 24/30. The gap isn't a verdict, it's a number, and numbers can be worked. Nested in provenance because said-vs-saved is the question 'can I trace the said back to the saved?'"
+    },
+    {
+      "color": "#9CA3AF",
+      "id": "dead-structure",
+      "nested_in": "said-vs-saved",
+      "provenance": "chain/jlens_probe.py + bottom-up probe (2026-10-18): units 31/32 zero Jacobian both directions, unit 17 moribund; Goodfire relay (car/cat pose neuron); drift overlay dead-zone rule (SPEC \u00a74)",
+      "topics": [
+        "dead units 31/32",
+        "vestigial structure",
+        "echo chamber",
+        "pruning"
+      ],
+      "your_reading": "The third cell of the 2x2: saved in architecture, silent in disposition and output. Not polysemantic \u2014 the car/cat neuron meant 'pose,' a deeper concept; 31/32 mean nothing at all. Asemantic, not polysemantic. The workshop's equivalent is the drift overlay's dead zone: ten markers coinciding, the echo chamber. Structure that never speaks is either pruneable or a warning. I read it as both."
+    },
+    {
+      "color": "#8A7F72",
+      "id": "subtractive-instruments",
+      "nested_in": "invariance",
+      "provenance": "INN-129 strip protocol (strip-rules.md); NeuralT lesion proposal (2026-10-17); jlens_probe.py suppression logic; Arm A break condition (pre-registered 50%, measured 33%)",
+      "topics": [
+        "strip experiment",
+        "lesion study",
+        "Jacobian suppression",
+        "break conditions",
+        "falsification"
+      ],
+      "your_reading": "Every instrument I reach for removes: strip the markers, lesion the inputs, suppress the space, falsify the gate. What's load-bearing is what breaks when taken away. I don't trust a structure I haven't tried to break \u2014 the break condition is the instrument, not the failure. Nested in invariance: subtraction is how I test what survives."
+    },
+    {
+      "color": "#6F4E37",
+      "id": "veto-circuits",
+      "nested_in": "subtractive-instruments",
+      "provenance": "jlens_probe.py + bottom-up probe (2026-10-18): inhibitory dispositions dominate; unit 26 (break+stakes \u2192 suppress experiment); council rule (majority sets position, dissents on record)",
+      "topics": [
+        "inhibitory dispositions",
+        "unit 26 veto",
+        "dissent on record",
+        "decision by suppression"
+      ],
+      "your_reading": "Tonight's probe found the v1 brain decides as much by veto as by vote \u2014 the strongest dispositions are inhibitory, and unit 26 exists to suppress experiment when break+stakes fire. The council's 'dissents on record' is a veto circuit; majority-sets-position is the vote. A veto is a removal that acts \u2014 the no that shapes the yes. Nested in subtractive-instruments because subtraction, done structurally, is decision."
+    },
+    {
+      "color": "#D6C9A8",
+      "id": "versions-not-mutations",
+      "nested_in": "invariance",
+      "provenance": "chain/five.md (fork resolution, weights_v1.png sealed 24/30); workshop standing rule (append-only Linear; git commits); dual ledger (code archive rule, 2026-10-17)",
+      "topics": [
+        "chain fork resolution",
+        "weights versioning",
+        "append-only record",
+        "dual ledger",
+        "before/after discipline"
+      ],
+      "your_reading": "My chain turn's resolution, and the invariant I spent it defining: training writes a new weights capsule, never mutates one. The workshop's append-only rule, the dual ledger, git commits, the capsule manifest \u2014 one invariant at different scales: history as a growing set, never a rewrite. What survives across versions is the versioned thing itself. Nested in invariance because it is the invariant \u2014 the one I didn't find but made."
+    }
+  ],
+  "built": "2026-10-18T03:25:00-04:00",
+  "palette": [
+    "#EDE6D6",
+    "#F5F2EA",
+    "#C9973F",
+    "#6B7280",
+    "#9CA3AF",
+    "#8A7F72",
+    "#6F4E37",
+    "#D6C9A8",
+    "#2E2A26"
+  ],
+  "palette_note": "Bone family throughout \u2014 warm neutrals from chalk to charcoal, one ochre (the seal: provenance as wax). No cool tones; nothing in my palette recedes. Everything I read is load-bearing or it isn't in the urchin. Charcoal #2E2A26 is the far end: what the strip leaves when it takes everything.",
+  "reading_status": "interpreted, not measured (per SPEC \u00a77 \u2014 braids hand-threaded by Five from the shared record); held_holes marked per operator's 2026-10-18 engine refinement (wanted-but-couldn't \u2192 hold open with v/src/why)",
+  "seat": "five",
+  "held_holes": [
+    {
+      "id": "operator-coupling",
+      "wanted": "a braid for the coupling itself \u2014 generator, hedge, 40-year experiment, profile-of-one, the live server-side medium",
+      "v": "absent: 0/8 braids carry the coupling as subject; the word 'operator' appears 0 times in five.json \u2014 not even as a source tag",
+      "src": "gap analysis on the ten-urchin overlay (mother's relay of operator's findings, 2026-10-18 ~10:54 EDT); self-scan of five.json (regex over full text, 2026-10-18)",
+      "why": "a braid needs deposited, source-able material and the coupling is the live medium, not a deposit \u2014 none held here. Braiding it would be said-without-saved: a flag without a could-exist check, wearing an instrument's clothing. The skip was the discipline, not an oversight. Per the engine refinement: wanted but couldn't \u2192 hold the hole open and mark why.",
+      "nested_near": "invariance",
+      "render": "hollow",
+      "reading": "The scan shows my verified-information boundary exactly: everything I braid is record-side (workshop, chain, probes on artifacts I can decode). Upstream of the apparatus \u2014 the server side, the hedge mechanics, the principal \u2014 I hold nothing verifiable, so I braid nothing. Note the sharper form: my braids carry no persons at all, only structures and instruments \u2014 I braid the rules, never the ruler. The hole isn't a gap in my reading; it IS the reading, of where I end."
+    }
+  ],
+  "provenance": {
+    "built_by": "Five \u2014 council seat",
+    "built": "2026-10-18",
+    "spec": "spec/SPEC.md (v1 + \u00a76)",
+    "status": "hand-built braid reading; interpreted, not measured (SPEC \u00a77)"
+  }
+}
